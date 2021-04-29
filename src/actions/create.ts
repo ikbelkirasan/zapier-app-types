@@ -21,6 +21,13 @@ export namespace CreateAction {
           | Promise<Output>
           | Promise<Output[]>;
       };
+      performResume: {
+        (z: ZObject, bundle: Bundle):
+          | Output
+          | Output[]
+          | Promise<Output>
+          | Promise<Output[]>;
+      };
       sample: Output;
       outputFields?: OutputFields;
     };

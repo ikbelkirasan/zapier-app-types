@@ -1,0 +1,9 @@
+{
+  "name": "zapier-app-types",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "license": "MIT",
+  "peerDependencies": {
+    "zapier-platform-core": "^10.2.0"
+  }
+}

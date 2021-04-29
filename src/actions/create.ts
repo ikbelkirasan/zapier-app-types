@@ -21,7 +21,7 @@ export namespace CreateAction {
           | Promise<Output>
           | Promise<Output[]>;
       };
-      performResume: {
+      performResume?: {
         (z: ZObject, bundle: Bundle):
           | Output
           | Output[]

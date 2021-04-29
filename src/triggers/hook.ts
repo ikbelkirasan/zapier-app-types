@@ -9,6 +9,7 @@ export namespace HookTrigger {
     display: {
       label: string;
       description: string;
+      directions?: string;
       hidden?: boolean;
       important?: boolean;
     };
